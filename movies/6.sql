@@ -1,0 +1,1 @@
+SELECT substr(AVG(rating), 1, INSTR(AVG(rating), '.') + 2) FROM ratings JOIN movies WHERE year = "2012";
